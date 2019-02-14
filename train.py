@@ -140,8 +140,8 @@ def process_inputlabels(file):
     return (ids,labels)
 
 
-seqfile="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";                         #the position of the processed sequence data (output from dataprocess.pl)
-labelfile="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";                         #the position of the processed label data (output from dataprocess.pl)
+seqfile="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";                         #the location of the processed sequence data (output from dataprocess.pl)
+labelfile="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";                         #the location of the processed label data (output from dataprocess.pl)
 (ids,seqs)=process_inputseqs(seqfile)
 (ids,labels)=process_inputlabels(labelfile)
 rawdata=zip(seqs,labels)
